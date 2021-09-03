@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std:: string greeting = "What the hell?";
+    greeting.pop_back();
+    greeting.replace(9, 4, "****");
+    std::cout << greeting << std::endl;
+}
